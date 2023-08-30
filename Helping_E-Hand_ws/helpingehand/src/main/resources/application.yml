@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /helpingehand
+    
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: "root"
+    password: "1234567"
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true

@@ -1,0 +1,16 @@
+package com.helpingehand.helpingehand.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class JustController {
+	
+	@GetMapping("/login")
+	 public String getphone(String mobile) {
+        return mobile;
+    }
+	
+	
+}
+

@@ -1,0 +1,13 @@
+package com.helpingehand.helpingehand.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.helpingehand.helpingehand.entities.UserDataModel;
+
+public interface UserDataRepositories extends JpaRepository <UserDataModel,Integer>{
+	
+
+
+}
+
+
